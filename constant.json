@@ -1,0 +1,6 @@
+{
+    "baseURL" : "https://slack.com/api/",
+    "URLMap":{
+        "listGroups" : "groups.list"
+    }
+}
