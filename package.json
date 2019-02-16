@@ -1,0 +1,29 @@
+{
+  "name": "session-demo",
+  "version": "1.0.0",
+  "description": "A sample application to demonstrate Mocha Test Cases",
+  "main": "index.js",
+  "scripts": {
+    "test-client": "mocha test/client-test.js --reporter mochawesome --reporter-options reportDir=reports/client",
+    "test-server": "mocha test/server-test.js --reporter mochawesome --reporter-options reportDir=reports/server",
+    "test": "mocha test/*.js --reporter mochawesome --reporter-options reportDir=reports/final"
+  },
+  "author": "Shweta Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "mochawesome": "^2.3.1",
+    "node-mocks-http": "^1.6.6",
+    "request": "^2.83.0",
+    "requestretry": "^1.12.2"
+  },
+  "devDependencies": {
+    "mockery": "^2.1.0",
+    "nock": "^9.1.0",
+    "sinon": "^4.1.2"
+  }
+}

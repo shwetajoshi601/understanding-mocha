@@ -1,0 +1,10 @@
+{
+    "client":{
+    "token":"your_token",
+    "invalid_token":"abc"
+    },
+    "server":{
+        "URL":"http://your_server_url:port/api/posttoslack",
+        "token" : "your_token"
+    }
+}
