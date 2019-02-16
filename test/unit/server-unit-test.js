@@ -33,7 +33,7 @@ describe('# SERVER TEST CASES', function () {
                 "ts": "1510215690.000117",
                 "message": {
                     "text": "ちょっと冷たいここに！",
-                    "username": "rita_iwb",
+                    "username": "your_username",
                     "icons": {
                         "emoji": "https://emoji.slack-edge.com/T7P529ASJ/squirrel/465f40c0e0.png"
                     },
@@ -51,7 +51,7 @@ describe('# SERVER TEST CASES', function () {
             body: {
                 "channel": "D7P4W5L9F",
                 "text": "Hieeee!!!!!!!!!!!!!!!",
-                "token": "xoxp-261172316902-259635289776-260419841860-3c280103d3e9e3fa4209bd8ee2556726"
+                "token": "your_token"
             }
         });
         var mockResponse = httpMocks.createResponse();
